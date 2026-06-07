@@ -11,6 +11,7 @@ export type Product = {
   name: string;
   description: string;
   image: string;
+  price: number;
   tag?: string;
 };
 
@@ -27,6 +28,7 @@ export type Category = {
   id: string;
   name: string;
   description: string;
+  itemCount: string;
   image?: string;
   theme?: CategoryTheme;
 };
@@ -55,4 +57,12 @@ export type MenuSection = {
   altLabel?: string;
   theme: CategoryTheme;
   items: MenuItem[];
+};
+
+export type Testimonial = {
+  id: string;
+  name: string;
+  area: string;
+  quote: string;
+  rating: number;
 };

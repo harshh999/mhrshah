@@ -2,27 +2,27 @@ import type { Feature } from "@/types";
 
 export const features: Feature[] = [
   {
-    title: "Fresh Ingredients Daily",
+    title: "Fresh Fruits Daily",
     description:
-      "Fruits and milk are sourced fresh every morning — nothing pre-mixed, nothing artificial.",
-    icon: "Leaf",
+      "We source seasonal, local fruits every morning — no frozen, no artificial.",
+    icon: "Citrus",
   },
   {
-    title: "Premium Ice Cream Quality",
+    title: "Premium Ingredients",
     description:
-      "Hand-scooped, slow-churned ice creams using real cream and traditional recipes.",
-    icon: "IceCream2",
+      "Only the finest dry fruits, dairy, and natural flavors go into every glass.",
+    icon: "Sparkles",
   },
   {
-    title: "Authentic Recipes",
+    title: "100+ Varieties",
     description:
-      "Faloodas, lassis and shakes made the way grandparents remember — consistent for years.",
-    icon: "ChefHat",
+      "From simple lemon juice to exotic berry blends — something for everyone.",
+    icon: "BookOpen",
   },
   {
-    title: "Loved By Families",
+    title: "Trusted Since 1980",
     description:
-      "Four neighbourhood parlours, generations of regulars, and a long line of happy children.",
-    icon: "Users",
+      "Four decades of flavors, memories, and smiles across Vadodara.",
+    icon: "Trophy",
   },
 ];

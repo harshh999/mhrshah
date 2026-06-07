@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { Link } from "@tanstack/react-router";
-import { Menu, X } from "lucide-react";
+import { Link, NavLink } from "react-router-dom";
+import { Menu, X, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Container } from "./Container";
 import { BrandLogo } from "./BrandLogo";
@@ -36,7 +36,7 @@ export function Navbar() {
       className={cn(
         "fixed inset-x-0 top-0 z-50 transition-all duration-300",
         scrolled || open
-          ? "border-b border-border/60 bg-background/80 backdrop-blur-md shadow-[var(--shadow-card)]"
+          ? "border-b border-white/20 bg-[var(--cream)]/80 backdrop-blur-xl shadow-[var(--shadow-card)]"
           : "border-b border-transparent bg-transparent",
       )}
     >
@@ -63,7 +63,7 @@ export function Navbar() {
                 scrolled || open ? "text-muted-foreground" : "text-white/80",
               )}
             >
-              Ice Cream · Juice · Falooda
+              Juice · Ice Cream · Falooda
             </span>
           </div>
         </Link>
@@ -72,26 +72,22 @@ export function Navbar() {
           <ul className="flex items-center gap-8">
             {links.map((l) => (
               <li key={l.to}>
-                <Link
+                <NavLink
                   to={l.to}
-                  activeOptions={{ exact: l.to === "/" }}
-                  className={cn(
-                    "rounded-full px-4 py-2 text-sm font-medium transition-colors",
+                  end={l.to === "/"}
+                  className={({ isActive }) => cn(
+                    "rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange",
                     scrolled
-                      ? "text-foreground/80 hover:bg-cream hover:text-foreground"
-                      : "text-white/90 hover:bg-white/15 hover:text-white",
+                      ? (isActive
+                          ? "bg-cream text-foreground font-semibold"
+                          : "text-foreground/80 hover:bg-cream hover:text-foreground")
+                      : (isActive
+                          ? "bg-white/20 text-white font-semibold"
+                          : "text-white/90 hover:bg-white/15 hover:text-white")
                   )}
-                  activeProps={{
-                    className: cn(
-                      "rounded-full px-4 py-2 text-sm font-semibold",
-                      scrolled
-                        ? "bg-cream text-foreground"
-                        : "bg-white/20 text-white",
-                    ),
-                  }}
                 >
                   {l.label}
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>
@@ -100,9 +96,10 @@ export function Navbar() {
         <div className="hidden md:block">
           <Link
             to="/menu"
-            className="inline-flex h-11 items-center justify-center rounded-full bg-[image:var(--gradient-warm)] px-5 text-sm font-semibold text-white shadow-[var(--shadow-glow)] transition-transform hover:scale-[1.03] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange focus-visible:ring-offset-2"
+            className="inline-flex h-11 items-center justify-center gap-2 rounded-full bg-brand-orange px-5 text-sm font-semibold text-white shadow-[var(--shadow-glow)] transition-all hover:bg-orange-600 hover:scale-[1.03] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange focus-visible:ring-offset-2"
           >
-            Explore Menu
+            Order Now
+            <ArrowRight className="size-4" />
           </Link>
         </div>
 
@@ -112,7 +109,7 @@ export function Navbar() {
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
           className={cn(
-            "inline-flex size-11 items-center justify-center rounded-full transition-colors md:hidden",
+            "inline-flex size-11 items-center justify-center rounded-full transition-colors md:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange",
             scrolled || open
               ? "text-foreground hover:bg-cream"
               : "text-white hover:bg-white/15",
@@ -122,39 +119,42 @@ export function Navbar() {
         </button>
       </Container>
 
-      {/* Mobile menu */}
+      {/* Mobile menu — full screen slide-in */}
       <div
         className={cn(
-          "md:hidden",
-          "overflow-hidden transition-[max-height,opacity] duration-300",
-          open ? "max-h-[80vh] opacity-100" : "max-h-0 opacity-0",
+          "fixed inset-0 top-20 z-40 bg-background/95 backdrop-blur-xl md:hidden transition-all duration-300",
+          open
+            ? "opacity-100 translate-x-0 pointer-events-auto"
+            : "opacity-0 translate-x-full pointer-events-none",
         )}
       >
-        <Container className="pb-6">
-          <ul className="flex flex-col gap-1 pt-2">
+        <Container className="flex flex-col gap-2 pt-8">
+          <ul className="flex flex-col gap-1">
             {links.map((l) => (
               <li key={l.to}>
-                <Link
+                <NavLink
                   to={l.to}
                   onClick={() => setOpen(false)}
-                  activeOptions={{ exact: l.to === "/" }}
-                  className="block rounded-xl px-4 py-3 text-base font-medium text-foreground/80 hover:bg-cream"
-                  activeProps={{
-                    className:
-                      "block rounded-xl bg-cream px-4 py-3 text-base font-semibold text-foreground",
-                  }}
+                  end={l.to === "/"}
+                  className={({ isActive }) => cn(
+                    "block rounded-xl px-4 py-4 text-lg font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange",
+                    isActive
+                      ? "bg-cream font-semibold text-foreground"
+                      : "text-foreground/80 hover:bg-cream"
+                  )}
                 >
                   {l.label}
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>
           <Link
             to="/menu"
             onClick={() => setOpen(false)}
-            className="mt-3 inline-flex h-12 w-full items-center justify-center rounded-full bg-[image:var(--gradient-warm)] px-5 text-sm font-semibold text-white shadow-[var(--shadow-glow)]"
+            className="mt-4 inline-flex h-14 w-full items-center justify-center gap-2 rounded-full bg-brand-orange px-5 text-base font-semibold text-white shadow-[var(--shadow-glow)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange focus-visible:ring-offset-2"
           >
-            Explore Menu
+            Order Now
+            <ArrowRight className="size-5" />
           </Link>
         </Container>
       </div>

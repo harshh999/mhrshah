@@ -1,13 +1,13 @@
-import { Leaf, IceCream2, ChefHat, Users, type LucideIcon } from "lucide-react";
+import { Citrus, Sparkles, BookOpen, Trophy, type LucideIcon } from "lucide-react";
 import { Container } from "@/components/layout/Container";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { features } from "@/data/features";
 
 const iconMap: Record<string, LucideIcon> = {
-  Leaf,
-  IceCream2,
-  ChefHat,
-  Users,
+  Citrus,
+  Sparkles,
+  BookOpen,
+  Trophy,
 };
 
 export function WhyUs() {
@@ -22,11 +22,11 @@ export function WhyUs() {
 
         <ul className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {features.map((f) => {
-            const Icon = iconMap[f.icon] ?? Leaf;
+            const Icon = iconMap[f.icon] ?? Citrus;
             return (
               <li key={f.title}>
-                <article className="group flex h-full flex-col rounded-3xl border border-border/60 bg-card p-7 shadow-[var(--shadow-card)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-lift)]">
-                  <div className="mb-5 flex size-14 items-center justify-center rounded-2xl bg-[image:var(--gradient-warm)] text-white shadow-[var(--shadow-glow)] transition-transform duration-500 group-hover:rotate-6">
+                <article className="group flex h-full flex-col rounded-[var(--radius-card)] bg-card p-7 shadow-[var(--shadow-card)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[var(--shadow-lift)]">
+                  <div className="mb-5 flex size-14 items-center justify-center rounded-2xl bg-[image:var(--gradient-premium)] text-white shadow-[var(--shadow-glow)] transition-transform duration-500 group-hover:rotate-6">
                     <Icon className="size-6" />
                   </div>
                   <h3 className="font-display text-lg text-foreground">

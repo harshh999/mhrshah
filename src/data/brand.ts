@@ -1,10 +1,12 @@
 export const brand = {
   name: "Shree Rajrajeshwari",
-  fullName: "Shree Rajrajeshwari Ice Cream & Juice Parlour",
+  fullName: "Shree Rajrajeshwari Juice & Ice Cream Parlour",
   short: "Rajrajeshwari",
-  tagline: "Fresh Flavours for Every Generation.",
+  tagline: "Freshness In Every Sip. Happiness In Every Scoop.",
+  taglineMain: "Freshness In Every Sip.",
+  taglineSub: "Happiness In Every Scoop.",
   description:
-    "Built on family values and honest ingredients, serving Vadodara's favourite treats since 1980.",
+    "Serving handcrafted juices, premium milkshakes, faloodas, smoothies and ice creams loved by generations since 1980.",
   foundedYear: 1980,
   phone: "+91 70965 92939",
   phoneHref: "tel:+917096592939",

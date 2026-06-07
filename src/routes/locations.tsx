@@ -1,4 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { Container } from "@/components/layout/Container";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { LocationsSection } from "@/components/home/LocationsSection";
@@ -7,28 +6,7 @@ import { brand } from "@/data/brand";
 import { locations, mapsHref } from "@/data/locations";
 import { Clock, Phone, Navigation, MapPin } from "lucide-react";
 
-export const Route = createFileRoute("/locations")({
-  head: () => ({
-    meta: [
-      { title: `Locations — ${brand.fullName}` },
-      {
-        name: "description",
-        content:
-          "Find your nearest Shree Rajrajeshwari Ice Cream & Juice Parlour. 5 branches across Vadodara — Manjalpur, Fatehgunj, Nizampura, Uma Char Rasta and Ellora Park.",
-      },
-      { property: "og:title", content: `Locations — ${brand.short}` },
-      {
-        property: "og:description",
-        content: "5 cheerful neighbourhood parlours across Vadodara.",
-      },
-      { property: "og:url", content: "/locations" },
-    ],
-    links: [{ rel: "canonical", href: "/locations" }],
-  }),
-  component: LocationsPage,
-});
-
-function LocationsPage() {
+export default function LocationsPage() {
   return (
     <>
       <section className="bg-cream pt-32 pb-12 sm:pt-40">
@@ -78,7 +56,7 @@ function LocationsPage() {
                     href={mapsHref(loc.mapsQuery)}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-6 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-foreground px-5 text-sm font-semibold text-background transition-colors hover:bg-brand-blue"
+                    className="mt-6 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-foreground px-5 text-sm font-semibold text-background transition-colors hover:bg-brand-purple"
                   >
                     <Navigation className="size-4" />
                     Get Directions

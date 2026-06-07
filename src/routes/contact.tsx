@@ -1,4 +1,3 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Container } from "@/components/layout/Container";
 import { SectionHeading } from "@/components/layout/SectionHeading";
@@ -6,27 +5,7 @@ import { brand } from "@/data/brand";
 import { locations } from "@/data/locations";
 import { Phone, Clock, Instagram, Send, MapPin } from "lucide-react";
 
-export const Route = createFileRoute("/contact")({
-  head: () => ({
-    meta: [
-      { title: `Contact — ${brand.fullName}` },
-      {
-        name: "description",
-        content: `Get in touch with ${brand.fullName}. Call ${brand.phone}, message us on WhatsApp, or visit any of our 5 Vadodara branches.`,
-      },
-      { property: "og:title", content: `Contact — ${brand.short}` },
-      {
-        property: "og:description",
-        content: "Reach out by phone, WhatsApp or Instagram — or drop into your nearest branch.",
-      },
-      { property: "og:url", content: "/contact" },
-    ],
-    links: [{ rel: "canonical", href: "/contact" }],
-  }),
-  component: ContactPage,
-});
-
-function ContactPage() {
+export default function ContactPage() {
   const [form, setForm] = useState({ name: "", phone: "", message: "" });
 
   const onSubmit = (e: React.FormEvent) => {

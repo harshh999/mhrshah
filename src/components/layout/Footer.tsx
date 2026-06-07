@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import { Link } from "react-router-dom";
 import { Instagram, Phone, MapPin, Clock } from "lucide-react";
 import { Container } from "./Container";
 import { BrandLogo } from "./BrandLogo";
@@ -14,11 +14,7 @@ const quickLinks = [
 
 export function Footer() {
   return (
-    <footer className="relative mt-24 bg-[#151515] text-white">
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-x-0 -top-10 h-10 bg-[image:linear-gradient(to_bottom,transparent,#2596be)]"
-      />
+    <footer className="relative mt-24 bg-brand-charcoal text-white">
       <Container className="relative grid gap-12 py-16 md:grid-cols-12">
         <div className="md:col-span-4">
           <div className="flex items-center gap-3">
@@ -33,15 +29,18 @@ export function Footer() {
           <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/75">
             {brand.description}
           </p>
-          <a
-            href={brand.instagram}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/20"
-          >
-            <Instagram className="size-4" />
-            {brand.instagramHandle}
-          </a>
+          <div className="mt-6 flex gap-3">
+            <a
+              href={brand.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Follow us on Instagram"
+              className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange"
+            >
+              <Instagram className="size-4" />
+              {brand.instagramHandle}
+            </a>
+          </div>
         </div>
 
         <div className="md:col-span-2">
@@ -53,7 +52,7 @@ export function Footer() {
               <li key={l.to}>
                 <Link
                   to={l.to}
-                  className="text-white/75 transition-colors hover:text-white"
+                  className="text-white/75 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange focus-visible:ring-offset-2 focus-visible:ring-offset-brand-charcoal rounded"
                 >
                   {l.label}
                 </Link>
@@ -92,9 +91,8 @@ export function Footer() {
             {locations.map((loc) => (
               <li key={loc.id}>
                 <Link
-                  to="/locations"
-                  hash={loc.id}
-                  className="text-white/75 transition-colors hover:text-white"
+                  to={`/locations#${loc.id}`}
+                  className="text-white/75 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange rounded"
                 >
                   {loc.name}, Vadodara
                 </Link>

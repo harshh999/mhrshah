@@ -24,7 +24,7 @@ export function SectionHeading({
       {eyebrow && (
         <div
           className={cn(
-            "mb-3 inline-flex items-center gap-2 rounded-full bg-cream-deep px-3 py-1 text-xs font-medium tracking-wider text-brand-blue uppercase",
+            "mb-3 inline-flex items-center gap-2 rounded-full bg-cream-deep px-3 py-1 text-xs font-medium tracking-wider text-brand-purple uppercase",
           )}
         >
           <span className="size-1.5 rounded-full bg-brand-orange" />

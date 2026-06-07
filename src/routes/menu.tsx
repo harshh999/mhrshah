@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { Link } from "react-router-dom";
 import { ArrowRight, MapPin, BookOpen } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { Container } from "@/components/layout/Container";
@@ -13,29 +13,7 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 
-export const Route = createFileRoute("/menu")({
-  head: () => ({
-    meta: [
-      { title: `Menu & Prices — ${brand.fullName}` },
-      {
-        name: "description",
-        content:
-          "Explore our full menu — fresh juices, milkshakes, thick shakes, ice creams, faloodas, smoothies, lassi, mocktails & fruit shorts. Made fresh daily across 5 locations in Vadodara.",
-      },
-      { property: "og:title", content: `Menu — ${brand.short}` },
-      {
-        property: "og:description",
-        content:
-          "150+ favourites across juices, shakes, faloodas, ice creams, smoothies, lassi and mocktails.",
-      },
-      { property: "og:url", content: "/menu" },
-    ],
-    links: [{ rel: "canonical", href: "/menu" }],
-  }),
-  component: MenuPage,
-});
-
-function MenuPage() {
+export default function MenuPage() {
   const [activeId, setActiveId] = useState<string>(menu[0]?.id ?? "");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const sectionRefs = useRef<Record<string, HTMLElement | null>>({});
@@ -76,7 +54,7 @@ function MenuPage() {
         />
         <Container className="relative">
           <div className="mx-auto max-w-3xl text-center">
-            <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 text-xs font-medium tracking-wider text-brand-blue uppercase backdrop-blur">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 text-xs font-medium tracking-wider text-brand-purple uppercase backdrop-blur">
               <span className="size-1.5 rounded-full bg-brand-orange" />
               Our Menu
             </div>
@@ -265,7 +243,7 @@ function MenuPage() {
             <div className="mt-6 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center">
               <Link
                 to="/locations"
-                className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-foreground px-6 text-sm font-semibold text-background transition-colors hover:bg-brand-blue"
+                className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-foreground px-6 text-sm font-semibold text-background transition-colors hover:bg-brand-purple"
               >
                 <MapPin className="size-4" />
                 Find a location
@@ -285,7 +263,7 @@ function MenuPage() {
       {/* Mobile Floating Menu Button */}
       <button
         onClick={() => setIsMenuOpen(true)}
-        className="fixed bottom-6 right-6 z-40 lg:hidden flex items-center gap-2 rounded-full bg-brand-blue px-5 py-3 text-sm font-bold text-white shadow-2xl hover:scale-105 active:scale-95 duration-200 transition-all border border-white/10 cursor-pointer"
+        className="fixed bottom-6 right-6 z-40 lg:hidden flex items-center gap-2 rounded-full bg-brand-purple px-5 py-3 text-sm font-bold text-white shadow-2xl hover:scale-105 active:scale-95 duration-200 transition-all border border-white/10 cursor-pointer"
       >
         <BookOpen className="size-4" />
         <span>Menu</span>
@@ -312,7 +290,6 @@ function MenuPage() {
                   key={s.id}
                   onClick={() => {
                     setIsMenuOpen(false);
-                    // Slight delay to allow modal close animation and body scroll unlock to finish
                     setTimeout(() => {
                       handleScrollToSection(s.id);
                     }, 200);
