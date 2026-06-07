@@ -18,17 +18,16 @@ export function BestSellers() {
           {bestSellers.map((p) => (
             <li key={p.id}>
               <article className="group flex h-full flex-col overflow-hidden rounded-[var(--radius-card)] border border-border/60 bg-card shadow-[var(--shadow-card)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-lift)]">
-                {/* Premium Dark Gradient Placeholder Box */}
-                <div className="relative aspect-[4/3] overflow-hidden bg-gradient-to-br from-[#1a0a00] to-[#3d1f00] flex items-center justify-center p-6 text-center">
-                  <div className="absolute inset-0 bg-black/10" />
-                  <div className="relative z-10 flex flex-col items-center text-white/40">
-                    <span className="font-display text-sm font-semibold uppercase tracking-wider text-orange-200/50">
-                      Product Photo
-                    </span>
-                    <span className="text-[10px] mt-1 max-w-[160px] text-white/30 leading-tight">
-                      Placeholder — Client will replace later
-                    </span>
-                  </div>
+                {/* Product Photo */}
+                <div className="relative aspect-[4/3] overflow-hidden">
+                  <img
+                    src={p.image}
+                    alt={p.name}
+                    width={1024}
+                    height={768}
+                    loading="lazy"
+                    className="size-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                  />
                   {p.tag && (
                     <span className="absolute left-4 top-4 rounded-full bg-brand-orange px-3 py-1 text-[11px] font-semibold tracking-wider text-white uppercase shadow-sm">
                       {p.tag}

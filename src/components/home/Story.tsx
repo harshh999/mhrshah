@@ -30,13 +30,16 @@ export function Story() {
           <div className="relative">
             <div className="absolute -inset-6 -z-10 rounded-[2rem] bg-[image:var(--gradient-cta)] blur-2xl opacity-70" />
             
-            {/* Shop Photo Placeholder Box */}
-            <div className="relative flex aspect-[5/6] w-full flex-col items-center justify-center rounded-[var(--radius-card)] border-2 border-dashed border-stone-300 bg-stone-100 p-8 text-center text-stone-400 shadow-[var(--shadow-card)]">
-              <Store className="size-16 stroke-[1.2] text-stone-400 mb-4" />
-              <span className="font-display text-xl font-bold tracking-wide text-stone-600">Shop Photo</span>
-              <span className="text-sm text-stone-400 mt-2 max-w-[240px]">
-                Client will replace this placeholder with a real storefront photo later.
-              </span>
+            {/* Storefront Photo */}
+            <div className="relative overflow-hidden rounded-[var(--radius-card)] shadow-[var(--shadow-card)]">
+              <img
+                src="/images/story/story-store.jpg"
+                alt="Shree Rajrajeshwari parlour storefront"
+                width={1200}
+                height={1400}
+                loading="lazy"
+                className="aspect-[5/6] size-full object-cover"
+              />
             </div>
 
             <div className="absolute -bottom-6 -right-4 hidden rounded-2xl border border-border bg-card px-5 py-4 shadow-[var(--shadow-card)] sm:block">
