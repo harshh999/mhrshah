@@ -1,0 +1,381 @@
+Name,Online_Name,Description,Short_Code,Short_Code_2,Sap_Code,HSN_Code,Parent_Category,Category,Category_online_display,Price,Attributes,Active_in_All_Areas,Goods_Services,Rank,Packing_Charges,Allow_Decimal_Qty,Addon_Group_Name,Addon_Group_Selection,Addon_Group_Min,Addon_Group_Max,Variation_group_name,Variation,Variation_Price,Variation_Sap_Code,Variation_Packing_Charges
+"LEMON JUICE","LEMON JUICE",,1,,,,,"Fresh Juice",,40,veg,No,services,1,0,Yes
+"PINEAPPLE JUICE","PINEAPPLE JUICE",,2,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"WATERMELON JUICE","WATERMELON JUICE",,3,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"GUAVA JUICE","GUAVA JUICE",,4,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"PAPITA JUICE","PAPITA JUICE",,5,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"APPLE JUICE","APPLE JUICE",,6,,,,,"Fresh Juice",,80,veg,No,services,1,0,Yes
+"MOSAMBI JUICE","MOSAMBI JUICE",,7,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"ORANGE JUICE","ORANGE JUICE",,8,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"PINEAPPLE+MOSAMBI JUICE","PINEAPPLE+MOSAMBI JUICE",,9,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"PINEAPPLE+ORANGE JUICE","PINEAPPLE+ORANGE JUICE",,10,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"GANGA JAMUNA SARASWATI JUICE","GANGA JAMUNA SARASWATI JUICE",,11,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"GANGA JAMUNA JUICE","GANGA JAMUNA JUICE",,12,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"MANGO JUICE","MANGO JUICE",,13,,,,,"Fresh Juice",,90,veg,No,services,1,0,Yes
+"MUSK MELON JUICE","MUSK MELON JUICE",,14,,,,,"Fresh Juice",,80,veg,No,services,1,0,Yes
+"MIX FRUIT JUICE","MIX FRUIT JUICE",,15,,,,,"Fresh Juice",,90,veg,No,services,1,0,Yes
+"ROSE+WATERMELON JUICE","ROSE+WATERMELON JUICE",,16,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"APPLE+PINEAPPLE JUICE","APPLE+PINEAPPLE JUICE",,17,,,,,"Fresh Juice",,80,veg,No,services,1,0,Yes
+"WATEMELON+PINEAPPLE JUICE","WATEMELON+PINEAPPLE JUICE",,18,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"PINEAPPLE+PAPITA JUICE","PINEAPPLE+PAPITA JUICE",,19,,,,,"Fresh Juice",,80,veg,No,services,1,0,Yes
+"FRESH STRAWBERRY JUICE","FRESH STRAWBERRY JUICE",,20,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"MARAMMARI JUICE","MARAMMARI JUICE",,21,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"GREEN GRAPES JUICE (S)","GREEN GRAPES JUICE (S)",,22,,,,,"Fresh Juice",,100,veg,No,services,1,0,Yes
+"PEACH JUICE","PEACH JUICE",,23,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"PEARS JUICE","PEARS JUICE",,24,,,,,"Fresh Juice",,0,veg,No,services,1,0,Yes
+"POMEGRANATE JUICE","POMEGRANATE JUICE",,25,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"JAMUN JUICE","JAMUN JUICE",,26,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"POMEGRANATE+PINEAPPLE JUICE","POMEGRANATE+PINEAPPLE JUICE",,27,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"POMEGRANATE+ORANGE JUICE","POMEGRANATE+ORANGE JUICE",,28,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"POMEGRANATE+MOSAMBI JUICE","POMEGRANATE+MOSAMBI JUICE",,29,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"FRESH KIWI JUICE","FRESH KIWI JUICE",,30,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"STARWBERRY+KIWI JUICE","STARWBERRY+KIWI JUICE",,31,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"BLACK GRAPES JUICE","BLACK GRAPES JUICE",,32,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"COCKTAIL JUICE","COCKTAIL JUICE",,33,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"GRAPES+POMEGRANATE JUICE","GRAPES+POMEGRANATE JUICE",,34,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"KIWI+PINEAPPLE JUICE","KIWI+PINEAPPLE JUICE",,35,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"FALSA JUICE (S)","FALSA JUICE (S)",,36,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"PLUM JUICE (S)","PLUM JUICE (S)",,37,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"LICHI JUICE (S)","LICHI JUICE (S)",,38,,,,,"Fresh Juice",,130,veg,No,services,1,0,Yes
+"RASPBERRY JUICE","RASPBERRY JUICE",,39,,,,,"Fresh Juice",,190,veg,No,services,1,0,Yes
+"BLUEBERRY JUICE","BLUEBERRY JUICE",,40,,,,,"Fresh Juice",,190,veg,No,services,1,0,Yes
+"CHERRY JUICE","CHERRY JUICE",,41,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"KIWI+MANGO JUICE","KIWI+MANGO JUICE",,42,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"KIWI+APPLE JUICE","KIWI+APPLE JUICE",,43,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"GRAPES+PINEAPPLE JUICE","GRAPES+PINEAPPLE JUICE",,44,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"DRAGON JUICE","DRAGON JUICE",,45,,,,,"Fresh Juice",,100,veg,No,services,1,0,Yes
+"KIWI+DRAGON JUICE","KIWI+DRAGON JUICE",,46,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"PINEAPPLE+DRAGON JUICE","PINEAPPLE+DRAGON JUICE",,47,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"AVOCADO JUICE","AVOCADO JUICE",,48,,,,,"Fresh Juice",,160,veg,No,services,1,0,Yes
+"MULBERRY JUICE","MULBERRY JUICE",,49,,,,,"Fresh Juice",,110,veg,No,services,1,0,Yes
+"TRIVENI JUICE","TRIVENI JUICE",,50,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"PINEAPPLE+PLUM JUICE","PINEAPPLE+PLUM JUICE",,51,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"POMEGRANATE+DRAGON JUICE","POMEGRANATE+DRAGON JUICE",,52,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"SP. DENGUE JUICE","SP. DENGUE JUICE",,53,,,,,"Fresh Juice",,110,veg,No,services,1,0,Yes
+"LEMON+GINGER JUICE","LEMON+GINGER JUICE",,54,,,,,"Fresh Juice",,60,veg,No,services,1,0,Yes
+"KOKUM JUICE","KOKUM JUICE",,55,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"GREEN+BLACK GRAPES JUICE","GREEN+BLACK GRAPES JUICE",,56,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"PEACH+PLUM JUICE","PEACH+PLUM JUICE",,57,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"WATERMELON+MINT JUICE","WATERMELON+MINT JUICE",,58,,,,,"Fresh Juice",,80,veg,No,services,1,0,Yes
+"KIWI+POMEGRANATE JUICE","KIWI+POMEGRANATE JUICE",,59,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"LEMON+MINT JUICE","LEMON+MINT JUICE",,60,,,,,"Fresh Juice",,60,veg,No,services,1,0,Yes
+"STRAWBERRY+PINEAPPLE JUICE","STRAWBERRY+PINEAPPLE JUICE",,61,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"PASSION FRUIT JUICE","PASSION FRUIT JUICE",,62,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"FRESH CRANBERRY JUICE","FRESH CRANBERRY JUICE",,63,,,,,"Fresh Juice",,190,veg,No,services,1,0,Yes
+"FRESH MIX BERRIES JUICE","FRESH MIX BERRIES JUICE",,64,,,,,"Fresh Juice",,200,veg,No,services,1,0,Yes
+"PINEAPPLE+GINGER JUICE","PINEAPPLE+GINGER JUICE",,65,,,,,"Fresh Juice",,70,veg,No,services,1,0,Yes
+"MUSK MELON + PINEAPPLE","MUSK MELON + PINEAPPLE",,66,,,,,"Fresh Juice",,80,veg,No,services,1,0,Yes
+AVACADO+PINEAPPLE,AVACADO+PINEAPPLE,,67,,,,,"Fresh Juice",,170,veg,No,services,1,0,Yes
+"AVACADO + KIWI","AVACADO + KIWI",,68,,,,,"Fresh Juice",,170,veg,No,services,1,0,Yes
+"BLACKBERRY JUICE","BLACKBERRY JUICE",,69,,,,,"Fresh Juice",,0,veg,No,services,1,0,Yes
+"STRAWBERRY+APPLE JUICE","STRAWBERRY+APPLE JUICE",,70,,,,,"Fresh Juice",,120,veg,No,services,1,0,Yes
+"COLD COCO M.S","COLD COCO M.S",,81,,,,,Milkshake,,80,veg,No,services,1,0,Yes
+"VANILLA M.S","VANILLA M.S",,82,,,,,Milkshake,,80,veg,No,services,1,0,Yes
+"PINEAPPLE M.S","PINEAPPLE M.S",,83,,,,,Milkshake,,80,veg,No,services,1,0,Yes
+"ROSE M.S","ROSE M.S",,84,,,,,Milkshake,,80,veg,No,services,1,0,Yes
+"BUTTER SCOTCH M.S","BUTTER SCOTCH M.S",,85,,,,,Milkshake,,90,veg,No,services,1,0,Yes
+"COLD COFFEE M.S","COLD COFFEE M.S",,86,,,,,Milkshake,,80,veg,No,services,1,0,Yes
+"BANANA M.S","BANANA M.S",,87,,,,,Milkshake,,100,veg,No,services,1,0,Yes
+"STRAWBERRY M.S","STRAWBERRY M.S",,88,,,,,Milkshake,,80,veg,No,services,1,0,Yes
+"CHICKOO M.S","CHICKOO M.S",,89,,,,,Milkshake,,100,veg,No,services,1,0,Yes
+"CHOCOLATE M.S","CHOCOLATE M.S",,90,,,,,Milkshake,,90,veg,No,services,1,0,Yes
+"KESAR M.S","KESAR M.S",,91,,,,,Milkshake,,90,veg,No,services,1,0,Yes
+"MANGO M.S","MANGO M.S",,92,,,,,Milkshake,,90,veg,No,services,1,0,Yes
+"APPLE M.S","APPLE M.S",,93,,,,,Milkshake,,90,veg,No,services,1,0,Yes
+"LITCHI M.S","LITCHI M.S",,94,,,,,Milkshake,,90,veg,No,services,1,0,Yes
+"TROPICAL COFFEE M.S","TROPICAL COFFEE M.S",,95,,,,,Milkshake,,100,veg,No,services,1,0,Yes
+"KIWI M.S","KIWI M.S",,96,,,,,Milkshake,,80,veg,No,services,1,0,Yes
+"SP. ORANGE M.S","SP. ORANGE M.S",,97,,,,,Milkshake,,90,veg,No,services,1,0,Yes
+"PAPITA M.S","PAPITA M.S",,98,,,,,Milkshake,,90,veg,No,services,1,0,Yes
+"MIX FRUIT M.S","MIX FRUIT M.S",,99,,,,,Milkshake,,110,veg,No,services,1,0,Yes
+"CHICKOO CHOCOLATE M.S","CHICKOO CHOCOLATE M.S",,100,,,,,Milkshake,,110,veg,No,services,1,0,Yes
+"BLACK CURRENT M.S","BLACK CURRENT M.S",,101,,,,,Milkshake,,90,veg,No,services,1,0,Yes
+"ROSE APPLE M.S","ROSE APPLE M.S",,102,,,,,Milkshake,,80,veg,No,services,1,0,Yes
+"CHICKOO+KESAR M.S","CHICKOO+KESAR M.S",,103,,,,,Milkshake,,110,veg,No,services,1,0,Yes
+"OREO M.S","OREO M.S",,104,,,,,Milkshake,,110,veg,No,services,1,0,Yes
+"KHAJUR M.S","KHAJUR M.S",,105,,,,,Milkshake,,120,veg,No,services,1,0,Yes
+"KHAJUR+CHICKOO M.S","KHAJUR+CHICKOO M.S",,106,,,,,Milkshake,,120,veg,No,services,1,0,Yes
+"KITKAT M.S","KITKAT M.S",,107,,,,,Milkshake,,130,veg,No,services,1,0,Yes
+"SP. SITAFAL M.S","SP. SITAFAL M.S",,108,,,,,Milkshake,,140,veg,No,services,1,0,Yes
+"KAJU M.S","KAJU M.S",,109,,,,,Milkshake,,200,veg,No,services,1,0,Yes
+"BADAM M.S","BADAM M.S",,110,,,,,Milkshake,,200,veg,No,services,1,0,Yes
+"SP. DRY FRUIT M.S","SP. DRY FRUIT M.S",,111,,,,,Milkshake,,220,veg,No,services,1,0,Yes
+"SP. KAJU MANGO M.S","SP. KAJU MANGO M.S",,112,,,,,Milkshake,,210,veg,No,services,1,0,Yes
+"KAJU ANJEER M.S","KAJU ANJEER M.S",,113,,,,,Milkshake,,200,veg,No,services,1,0,Yes
+"ANJEER M.S","ANJEER M.S",,114,,,,,Milkshake,,200,veg,No,services,1,0,Yes
+"KAJU GULKAND M.S","KAJU GULKAND M.S",,115,,,,,Milkshake,,200,veg,No,services,1,0,Yes
+"KAJU ROSE M.S","KAJU ROSE M.S",,116,,,,,Milkshake,,200,veg,No,services,1,0,Yes
+"KAJU KESAR M.S","KAJU KESAR M.S",,117,,,,,Milkshake,,200,veg,No,services,1,0,Yes
+"PISTA M.S","PISTA M.S",,118,,,,,Milkshake,,300,veg,No,services,1,0,Yes
+"SP. AVOCADO M.S","SP. AVOCADO M.S",,119,,,,,Milkshake,,180,veg,No,services,1,0,Yes
+"CHOCOLATE BANANA M.S","CHOCOLATE BANANA M.S",,120,,,,,Milkshake,,110,veg,No,services,1,0,Yes
+"GULKAND M.S","GULKAND M.S",,121,,,,,Milkshake,,110,veg,No,services,1,0,Yes
+"CHICKOO+BANANA M.S","CHICKOO+BANANA M.S",,122,,,,,Milkshake,,110,veg,No,services,1,0,Yes
+"AVOCADO+MANGO M.S","AVOCADO+MANGO M.S",,123,,,,,Milkshake,,180,veg,No,services,1,0,Yes
+"FRESH BLUEBERRY M.S","FRESH BLUEBERRY M.S",,124,,,,,Milkshake,,210,veg,No,services,1,0,Yes
+"BLUEBERRY+STRAWBERRY M.S","BLUEBERRY+STRAWBERRY M.S",,125,,,,,Milkshake,,220,veg,No,services,1,0,Yes
+"FRESH RASPBERRY M.S","FRESH RASPBERRY M.S",,126,,,,,Milkshake,,210,veg,No,services,1,0,Yes
+"FRESH CRANBERRY M.S","FRESH CRANBERRY M.S",,127,,,,,Milkshake,,210,veg,No,services,1,0,Yes
+"FRESH MIX BERRIES M.S","FRESH MIX BERRIES M.S",,128,,,,,Milkshake,,220,veg,No,services,1,0,Yes
+"BOURNVITA M.S","BOURNVITA M.S",,129,,,,,Milkshake,,90,veg,No,services,1,0,Yes
+"HAZELNUT M.S","HAZELNUT M.S",,130,,,,,Milkshake,,140,veg,No,services,1,0,Yes
+"SP.THANDAI M.S","SP.THANDAI M.S",,131,,,,,Milkshake,,100,veg,No,services,1,0,Yes
+"KHAJUR+ANJEER M.S","KHAJUR+ANJEER M.S",,132,,,,,Milkshake,,200,veg,No,services,1,0,Yes
+"KAJU+KHAJUR M.S","KAJU+KHAJUR M.S",,133,,,,,Milkshake,,200,veg,No,services,1,0,Yes
+"ROASTED ALMOND M.S","ROASTED ALMOND M.S",,134,,,,,Milkshake,,200,veg,No,services,1,0,Yes
+"CHICKOO+GULKAND M.S","CHICKOO+GULKAND M.S",,135,,,,,Milkshake,,120,veg,No,services,1,0,Yes
+"FRUIT FANTASY M.S.","FRUIT FANTASY M.S.",,137,,,,,Milkshake,,150,veg,No,services,1,0,Yes
+"CHOCOLATE + BANANA + MINT M.S","CHOCOLATE + BANANA + MINT M.S",,138,,,,,Milkshake,,110,veg,No,services,1,0,Yes
+"HAZELNUT COFFEE M.S","HAZELNUT COFFEE M.S",,136,,,,,Milkshake,,140,veg,No,services,1,0,Yes
+"MUSK MELON M.S.","MUSK MELON M.S.",,139,,,,,Milkshake,,100,veg,No,services,1,0,Yes
+"KAJU + BADAM M.S","KAJU + BADAM M.S",,140,,,,,Milkshake,,210,veg,No,services,1,0,Yes
+"PINEAPPLE M.S+I.C","PINEAPPLE M.S+I.C",,151,,,,,"Milkshake With Ice Cream",,100,veg,No,services,1,0,Yes
+"ROSE M.S+I.C","ROSE M.S+I.C",,152,,,,,"Milkshake With Ice Cream",,100,veg,No,services,1,0,Yes
+"BUTTER SCOTCH M.S+I.C","BUTTER SCOTCH M.S+I.C",,153,,,,,"Milkshake With Ice Cream",,110,veg,No,services,1,0,Yes
+"COLD COFFEE M.S+I.C","COLD COFFEE M.S+I.C",,154,,,,,"Milkshake With Ice Cream",,100,veg,No,services,1,0,Yes
+"BANANA M.S+I.C","BANANA M.S+I.C",,155,,,,,"Milkshake With Ice Cream",,120,veg,No,services,1,0,Yes
+"VANILLA M.S+I.C","VANILLA M.S+I.C",,156,,,,,"Milkshake With Ice Cream",,100,veg,No,services,1,0,Yes
+"STARWBERRY M.S+I.C","STARWBERRY M.S+I.C",,157,,,,,"Milkshake With Ice Cream",,100,veg,No,services,1,0,Yes
+"COLD COCO M.S+I.C","COLD COCO M.S+I.C",,158,,,,,"Milkshake With Ice Cream",,100,veg,No,services,1,0,Yes
+"KESAR M.S+I.C","KESAR M.S+I.C",,159,,,,,"Milkshake With Ice Cream",,110,veg,No,services,1,0,Yes
+"APPLE M.S+I.C","APPLE M.S+I.C",,160,,,,,"Milkshake With Ice Cream",,110,veg,No,services,1,0,Yes
+"ROSE APPLE M.S+I.C","ROSE APPLE M.S+I.C",,161,,,,,"Milkshake With Ice Cream",,120,veg,No,services,1,0,Yes
+"LITCHI M.S+I.C","LITCHI M.S+I.C",,162,,,,,"Milkshake With Ice Cream",,110,veg,No,services,1,0,Yes
+"KIWI M.S+I.C","KIWI M.S+I.C",,163,,,,,"Milkshake With Ice Cream",,110,veg,No,services,1,0,Yes
+"SP. ORANGE M.S+I.C","SP. ORANGE M.S+I.C",,164,,,,,"Milkshake With Ice Cream",,110,veg,No,services,1,0,Yes
+"PAPITA M.S+I.C","PAPITA M.S+I.C",,165,,,,,"Milkshake With Ice Cream",,110,veg,No,services,1,0,Yes
+"MANGO M.S+I.C","MANGO M.S+I.C",,166,,,,,"Milkshake With Ice Cream",,120,veg,No,services,1,0,Yes
+"MIX FRUIT M.S+I.C","MIX FRUIT M.S+I.C",,167,,,,,"Milkshake With Ice Cream",,130,veg,No,services,1,0,Yes
+"CHICKOO CHOCOLATE M.S+I.C","CHICKOO CHOCOLATE M.S+I.C",,168,,,,,"Milkshake With Ice Cream",,130,veg,No,services,1,0,Yes
+"CHOCOLATE+BANANA M.S+I.C","CHOCOLATE+BANANA M.S+I.C",,169,,,,,"Milkshake With Ice Cream",,130,veg,No,services,1,0,Yes
+"CHICKOO M.S+I.C","CHICKOO M.S+I.C",,170,,,,,"Milkshake With Ice Cream",,120,veg,No,services,1,0,Yes
+"TROPICAL COFFEE M.S+I.C","TROPICAL COFFEE M.S+I.C",,171,,,,,"Milkshake With Ice Cream",,120,veg,No,services,1,0,Yes
+"BLACKCURRENT M.S+I.C","BLACKCURRENT M.S+I.C",,172,,,,,"Milkshake With Ice Cream",,110,veg,No,services,1,0,Yes
+"CHOCOLATE M.S+I.C","CHOCOLATE M.S+I.C",,173,,,,,"Milkshake With Ice Cream",,110,veg,No,services,1,0,Yes
+"CHICKOO+KESAR M.S+I.C","CHICKOO+KESAR M.S+I.C",,174,,,,,"Milkshake With Ice Cream",,130,veg,No,services,1,0,Yes
+"KHAJUR+CHICKOO M.S+I.C","KHAJUR+CHICKOO M.S+I.C",,175,,,,,"Milkshake With Ice Cream",,140,veg,No,services,1,0,Yes
+"OREO M.S+I.C","OREO M.S+I.C",,176,,,,,"Milkshake With Ice Cream",,130,veg,No,services,1,0,Yes
+"GULKAND M.S+I.C","GULKAND M.S+I.C",,177,,,,,"Milkshake With Ice Cream",,130,veg,No,services,1,0,Yes
+"KHAJUR M.S+I.C","KHAJUR M.S+I.C",,178,,,,,"Milkshake With Ice Cream",,140,veg,No,services,1,0,Yes
+"KITKAT M.S+I.C","KITKAT M.S+I.C",,179,,,,,"Milkshake With Ice Cream",,150,veg,No,services,1,0,Yes
+"SP. SITAFAL M.S+I.C","SP. SITAFAL M.S+I.C",,180,,,,,"Milkshake With Ice Cream",,160,veg,No,services,1,0,Yes
+"KAJU M.S+I.C","KAJU M.S+I.C",,181,,,,,"Milkshake With Ice Cream",,220,veg,No,services,1,0,Yes
+"BADAM M.S+I.C","BADAM M.S+I.C",,182,,,,,"Milkshake With Ice Cream",,220,veg,No,services,1,0,Yes
+"SP. DRY FRUIT M.S+I.C","SP. DRY FRUIT M.S+I.C",,183,,,,,"Milkshake With Ice Cream",,240,veg,No,services,1,0,Yes
+"SP. KAJU MANGO M.S+I.C","SP. KAJU MANGO M.S+I.C",,184,,,,,"Milkshake With Ice Cream",,240,veg,No,services,1,0,Yes
+"KAJU ANJEER M.S+I.C","KAJU ANJEER M.S+I.C",,185,,,,,"Milkshake With Ice Cream",,220,veg,No,services,1,0,Yes
+"ANJEER M.S+I.C","ANJEER M.S+I.C",,186,,,,,"Milkshake With Ice Cream",,220,veg,No,services,1,0,Yes
+"KAJU GULKAND M.S+I.C","KAJU GULKAND M.S+I.C",,187,,,,,"Milkshake With Ice Cream",,220,veg,No,services,1,0,Yes
+"KAJU ROSE M.S+I.C","KAJU ROSE M.S+I.C",,188,,,,,"Milkshake With Ice Cream",,220,veg,No,services,1,0,Yes
+"KAJU KESAR M.S+I.C","KAJU KESAR M.S+I.C",,189,,,,,"Milkshake With Ice Cream",,220,veg,No,services,1,0,Yes
+"PISTA M.S+I.C","PISTA M.S+I.C",,190,,,,,"Milkshake With Ice Cream",,330,veg,No,services,1,0,Yes
+"AVOCADO M.S+I.C","AVOCADO M.S+I.C",,191,,,,,"Milkshake With Ice Cream",,240,veg,No,services,1,0,Yes
+"CHIKOO+BANANA M.S+I.C","CHIKOO+BANANA M.S+I.C",,192,,,,,"Milkshake With Ice Cream",,130,veg,No,services,1,0,Yes
+"AVOCADO+MANGO M.S+I.C","AVOCADO+MANGO M.S+I.C",,193,,,,,"Milkshake With Ice Cream",,240,veg,No,services,1,0,Yes
+"FRESH BLUEBERRY M.S+I.C","FRESH BLUEBERRY M.S+I.C",,194,,,,,"Milkshake With Ice Cream",,230,veg,No,services,1,0,Yes
+"BLUEBERY+STRAWBERRY M.S+I.C","BLUEBERY+STRAWBERRY M.S+I.C",,195,,,,,"Milkshake With Ice Cream",,240,veg,No,services,1,0,Yes
+"FRESH RASPBERRY M.S+I.C","FRESH RASPBERRY M.S+I.C",,196,,,,,"Milkshake With Ice Cream",,230,veg,No,services,1,0,Yes
+"FRESH CRANBERRY M.S+I.C","FRESH CRANBERRY M.S+I.C",,197,,,,,"Milkshake With Ice Cream",,230,veg,No,services,1,0,Yes
+"FRESH MIX BERRIESM.S+I.C","FRESH MIX BERRIESM.S+I.C",,198,,,,,"Milkshake With Ice Cream",,240,veg,No,services,1,0,Yes
+"BOURNVITA M.S+I.C","BOURNVITA M.S+I.C",,199,,,,,"Milkshake With Ice Cream",,110,veg,No,services,1,0,Yes
+"HAZELNUT M.S+I.C","HAZELNUT M.S+I.C",,200,,,,,"Milkshake With Ice Cream",,160,veg,No,services,1,0,Yes
+"SP.THANDAI M.S+I.C","SP.THANDAI M.S+I.C",,201,,,,,"Milkshake With Ice Cream",,120,veg,No,services,1,0,Yes
+"KHAJUR+ANJEER M.S+I.C","KHAJUR+ANJEER M.S+I.C",,202,,,,,"Milkshake With Ice Cream",,220,veg,No,services,1,0,Yes
+"KAJU+KHAJUR M.S+I.C","KAJU+KHAJUR M.S+I.C",,203,,,,,"Milkshake With Ice Cream",,220,veg,No,services,1,0,Yes
+"ROSTED ALMOND M.S+I.C","ROSTED ALMOND M.S+I.C",,204,,,,,"Milkshake With Ice Cream",,220,veg,No,services,1,0,Yes
+"CHICKOO+GULKAND M.S+I.C","CHICKOO+GULKAND M.S+I.C",,205,,,,,"Milkshake With Ice Cream",,140,veg,No,services,1,0,Yes
+"FRUIT FANTASY M.S.+I.C","FRUIT FANTASY M.S.+I.C",,206,,,,,"Milkshake With Ice Cream",,170,veg,No,services,1,0,Yes
+"CHOCOLATE + BANANA + MINT M.S +I.C","CHOCOLATE + BANANA + MINT M.S +I.C",,207,,,,,"Milkshake With Ice Cream",,130,veg,No,services,1,0,Yes
+"HAZELNUT COFFEE M.S +I.C","HAZELNUT COFFEE M.S +I.C",,208,,,,,"Milkshake With Ice Cream",,160,veg,No,services,1,0,Yes
+"MUSK MELON M.S. +I.C","MUSK MELON M.S. +I.C",,209,,,,,"Milkshake With Ice Cream",,120,veg,No,services,1,0,Yes
+"KAJU + BADAM M.S +I.C","KAJU + BADAM M.S +I.C",,210,,,,,"Milkshake With Ice Cream",,230,veg,No,services,1,0,Yes
+"ROYAL FALOODA","ROYAL FALOODA",,221,,,,,Falooda,,110,veg,No,services,1,0,Yes
+"BUTTER SCOTCH FALOODA","BUTTER SCOTCH FALOODA",,222,,,,,Falooda,,110,veg,No,services,1,0,Yes
+"MANGO FALOODA","MANGO FALOODA",,223,,,,,Falooda,,110,veg,No,services,1,0,Yes
+"STRAWBERRY FALOODA","STRAWBERRY FALOODA",,224,,,,,Falooda,,110,veg,No,services,1,0,Yes
+"RAJWADI FALOODA","RAJWADI FALOODA",,225,,,,,Falooda,,110,veg,No,services,1,0,Yes
+"CHOCOLATE FALOODA","CHOCOLATE FALOODA",,226,,,,,Falooda,,110,veg,No,services,1,0,Yes
+"RABDI FALOODA","RABDI FALOODA",,227,,,,,Falooda,,130,veg,No,services,1,0,Yes
+"KESAR FALOODA","KESAR FALOODA",,228,,,,,Falooda,,120,veg,No,services,1,0,Yes
+"BUTTER SCOTCH FALOODA+I.C","BUTTER SCOTCH FALOODA+I.C",,241,,,,,"Falooda With Ice Cream",,120,veg,No,services,1,0,Yes
+"AMERICAN FALOODA+I.C","AMERICAN FALOODA+I.C",,242,,,,,"Falooda With Ice Cream",,130,veg,No,services,1,0,Yes
+"RAJBHOG FALOODA+I.C","RAJBHOG FALOODA+I.C",,243,,,,,"Falooda With Ice Cream",,140,veg,No,services,1,0,Yes
+"CHOCOLATE FALOODA+I.C","CHOCOLATE FALOODA+I.C",,244,,,,,"Falooda With Ice Cream",,110,veg,No,services,1,0,Yes
+"KAJU DRAKSH FALOODA+I.C","KAJU DRAKSH FALOODA+I.C",,245,,,,,"Falooda With Ice Cream",,120,veg,No,services,1,0,Yes
+"KESAR FALOODA+I.C","KESAR FALOODA+I.C",,246,,,,,"Falooda With Ice Cream",,120,veg,No,services,1,0,Yes
+"RABDI FALOODA+I.C","RABDI FALOODA+I.C",,247,,,,,"Falooda With Ice Cream",,150,veg,No,services,1,0,Yes
+"VANILLA I.C","VANILLA I.C",,261,,,,,"Ice Cream",,30,veg,No,services,1,0,Yes
+"STRAWBERRY I.C","STRAWBERRY I.C",,262,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"PINEAPPLE I.C","PINEAPPLE I.C",,263,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"KAJU DRAKSH I.C","KAJU DRAKSH I.C",,264,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"CHOCOLATE CHIPS I.C","CHOCOLATE CHIPS I.C",,265,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"KAJU ANJEER I.C","KAJU ANJEER I.C",,266,,,,,"Ice Cream",,60,veg,No,services,1,0,Yes
+"RAJ BHOG I.C","RAJ BHOG I.C",,267,,,,,"Ice Cream",,60,veg,No,services,1,0,Yes
+"GREEN PISTA I.C","GREEN PISTA I.C",,268,,,,,"Ice Cream",,60,veg,No,services,1,0,Yes
+"BUTTER SCOTCH I.C","BUTTER SCOTCH I.C",,269,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"BLACK CURRENT I.C","BLACK CURRENT I.C",,270,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"AMERICAN DRY FRUIT I.C","AMERICAN DRY FRUIT I.C",,271,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"GOLDEN PEARL I.C","GOLDEN PEARL I.C",,272,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"SITAFAL (S) I.C","SITAFAL (S) I.C",,273,,,,,"Ice Cream",,60,veg,No,services,1,0,Yes
+"MAWA I.C","MAWA I.C",,274,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"BLUE DIAMOND I.C","BLUE DIAMOND I.C",,275,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"MANGO (S) I.C","MANGO (S) I.C",,276,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"PANCHRATNA MALAI I.C","PANCHRATNA MALAI I.C",,277,,,,,"Ice Cream",,60,veg,No,services,1,0,Yes
+"FRESH FRUIT I.C","FRESH FRUIT I.C",,278,,,,,"Ice Cream",,120,veg,No,services,1,0,Yes
+"BELGIUM CAKE CHOCOLATE I.C","BELGIUM CAKE CHOCOLATE I.C",,279,,,,,"Ice Cream",,60,veg,No,services,1,0,Yes
+"DRY FRUIT KHAJAN I.C","DRY FRUIT KHAJAN I.C",,280,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"GUAVA (S) I.C","GUAVA (S) I.C",,281,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"ORANGE CHIFFON I.C","ORANGE CHIFFON I.C",,282,,,,,"Ice Cream",,50,veg,No,services,1,0,Yes
+"SWEET LASSI","SWEET LASSI",,301,,,,,"Sadabahar Lassi",,50,veg,No,services,1,0,Yes
+"ROSE LASSI","ROSE LASSI",,302,,,,,"Sadabahar Lassi",,70,veg,No,services,1,0,Yes
+"PINEAPPLE LASSI","PINEAPPLE LASSI",,303,,,,,"Sadabahar Lassi",,80,veg,No,services,1,0,Yes
+"STRAWBERRY LASSI","STRAWBERRY LASSI",,304,,,,,"Sadabahar Lassi",,80,veg,No,services,1,0,Yes
+"ZING THING LASSI","ZING THING LASSI",,305,,,,,"Sadabahar Lassi",,80,veg,No,services,1,0,Yes
+"CHOCOLATE LASSI","CHOCOLATE LASSI",,306,,,,,"Sadabahar Lassi",,80,veg,No,services,1,0,Yes
+"SP. KESAR LASSI","SP. KESAR LASSI",,307,,,,,"Sadabahar Lassi",,90,veg,No,services,1,0,Yes
+"KAJU MANGO LASSI","KAJU MANGO LASSI",,308,,,,,"Sadabahar Lassi",,80,veg,No,services,1,0,Yes
+"GRAPE FRUIT LASSI","GRAPE FRUIT LASSI",,309,,,,,"Sadabahar Lassi",,80,veg,No,services,1,0,Yes
+"FRESH FRUITS LASSI","FRESH FRUITS LASSI",,310,,,,,"Sadabahar Lassi",,100,veg,No,services,1,0,Yes
+"KAJU CREAM LASSI","KAJU CREAM LASSI",,311,,,,,"Sadabahar Lassi",,100,veg,No,services,1,0,Yes
+"R.RAJESHWARI DRY FRUIT LASSI","R.RAJESHWARI DRY FRUIT LASSI",,312,,,,,"Sadabahar Lassi",,110,veg,No,services,1,0,Yes
+"RAJ BHOG LASSI","RAJ BHOG LASSI",,313,,,,,"Sadabahar Lassi",,110,veg,No,services,1,0,Yes
+"AMERICAN DRY FRUIT LASSI","AMERICAN DRY FRUIT LASSI",,314,,,,,"Sadabahar Lassi",,110,veg,No,services,1,0,Yes
+"CHOCOLATE BLOSSOM","CHOCOLATE BLOSSOM",,321,,,,,"Special Variety Blossom",,0,veg,No,services,1,0,Yes
+"ORANGE BLOSSOM","ORANGE BLOSSOM",,322,,,,,"Special Variety Blossom",,0,veg,No,services,1,0,Yes
+"LITCHI BLOSSOM","LITCHI BLOSSOM",,323,,,,,"Special Variety Blossom",,0,veg,No,services,1,0,Yes
+"PINEAPPLE BLOSSOM","PINEAPPLE BLOSSOM",,324,,,,,"Special Variety Blossom",,0,veg,No,services,1,0,Yes
+"STRAWBERRY BLOSSOM","STRAWBERRY BLOSSOM",,325,,,,,"Special Variety Blossom",,0,veg,No,services,1,0,Yes
+"ROSE BLOSSOM","ROSE BLOSSOM",,326,,,,,"Special Variety Blossom",,0,veg,No,services,1,0,Yes
+"APPLE BLOSSOM","APPLE BLOSSOM",,327,,,,,"Special Variety Blossom",,0,veg,No,services,1,0,Yes
+"BLACK CURRENT BLOSSOM","BLACK CURRENT BLOSSOM",,328,,,,,"Special Variety Blossom",,0,veg,No,services,1,0,Yes
+"FRUIT DELIGHT","FRUIT DELIGHT",,341,,,,,"Special Sunday Ice Cream",,190,veg,No,services,1,0,Yes
+"SWEET TEMPTATION","SWEET TEMPTATION",,342,,,,,"Special Sunday Ice Cream",,190,veg,No,services,1,0,Yes
+"BANANA SPLIT","BANANA SPLIT",,343,,,,,"Special Sunday Ice Cream",,190,veg,No,services,1,0,Yes
+"FRUIT SALAD+ICE CREAM","FRUIT SALAD+ICE CREAM",,344,,,,,"Special Sunday Ice Cream",,190,veg,No,services,1,0,Yes
+"LOVE BITE","LOVE BITE",,345,,,,,"Special Sunday Ice Cream",,190,veg,No,services,1,0,Yes
+"FASHION DELIGHT","FASHION DELIGHT",,346,,,,,"Special Sunday Ice Cream",,200,veg,No,services,1,0,Yes
+"HOT CHOCOLATE FUDGE","HOT CHOCOLATE FUDGE",,347,,,,,"Special Sunday Ice Cream",,190,veg,No,services,1,0,Yes
+"MIX VEGETABLE JUICE","MIX VEGETABLE JUICE",,361,,,,,"Healthy Vegetable Juice",,80,veg,No,services,1,0,Yes
+"CARROT+BEET JUICE","CARROT+BEET JUICE",,362,,,,,"Healthy Vegetable Juice",,80,veg,No,services,1,0,Yes
+"CARROT JUICE","CARROT JUICE",,363,,,,,"Healthy Vegetable Juice",,70,veg,No,services,1,0,Yes
+"BEET JUICE","BEET JUICE",,364,,,,,"Healthy Vegetable Juice",,70,veg,No,services,1,0,Yes
+"A.B.C JUICE","A.B.C JUICE",,365,,,,,"Healthy Vegetable Juice",,80,veg,No,services,1,0,Yes
+BEET+PINEAPPLE,BEET+PINEAPPLE,,366,,,,,"Healthy Vegetable Juice",,80,veg,No,services,1,0,Yes
+BEET+POMEGRANET,BEET+POMEGRANET,,367,,,,,"Healthy Vegetable Juice",,120,veg,No,services,1,0,Yes
+"PINEAPPLE FRUIT DISH","PINEAPPLE FRUIT DISH",,381,,,,,"Fruit Dish",,120,veg,No,services,1,0,Yes
+"WATERMELON FRUIT DISH","WATERMELON FRUIT DISH",,382,,,,,"Fruit Dish",,120,veg,No,services,1,0,Yes
+"MIX FRUIT DISH","MIX FRUIT DISH",,383,,,,,"Fruit Dish",,140,veg,No,services,1,0,Yes
+"MANGO COLADA","MANGO COLADA",,391,,,,,Smoothie,,180,veg,No,services,1,0,Yes
+"STRAWBERRY COLADA","STRAWBERRY COLADA",,392,,,,,Smoothie,,160,veg,No,services,1,0,Yes
+"CHICKOO COLADA","CHICKOO COLADA",,393,,,,,Smoothie,,170,veg,No,services,1,0,Yes
+"CHOCOLATE COLADA","CHOCOLATE COLADA",,394,,,,,Smoothie,,160,veg,No,services,1,0,Yes
+"PINEAPPLE COLADA","PINEAPPLE COLADA",,395,,,,,Smoothie,,160,veg,No,services,1,0,Yes
+"ORANGE COLADA","ORANGE COLADA",,396,,,,,Smoothie,,160,veg,No,services,1,0,Yes
+"BLACK CURRENT COLADA","BLACK CURRENT COLADA",,397,,,,,Smoothie,,160,veg,No,services,1,0,Yes
+"APPLE COLADA","APPLE COLADA",,398,,,,,Smoothie,,160,veg,No,services,1,0,Yes
+"ROSE COLADA","ROSE COLADA",,399,,,,,Smoothie,,160,veg,No,services,1,0,Yes
+"LITCHI COLADA","LITCHI COLADA",,400,,,,,Smoothie,,160,veg,No,services,1,0,Yes
+"MUSK MELON SMOOTHIE","MUSK MELON SMOOTHIE",,401,,,,,Smoothie,,160,veg,No,services,1,0,Yes
+"VERY BERRY SMOOTHIE","VERY BERRY SMOOTHIE",,402,,,,,Smoothie,,180,veg,No,services,1,0,Yes
+"BERRY BANANA BLISS SMOOTHIE","BERRY BANANA BLISS SMOOTHIE",,403,,,,,Smoothie,,280,veg,No,services,1,0,Yes
+"SITAFAL SMOOTHIE","SITAFAL SMOOTHIE",,408,,,,,Smoothie,,200,veg,No,services,1,0,Yes
+"ORIO SMOOTHIE","ORIO SMOOTHIE",,405,,,,,Smoothie,,200,veg,No,services,1,0,Yes
+"COCONUT SMOOTHIE","COCONUT SMOOTHIE",,406,,,,,Smoothie,,200,veg,No,services,1,0,Yes
+"KITKAT SMOOTHIE","KITKAT SMOOTHIE",,407,,,,,Smoothie,,210,veg,No,services,1,0,Yes
+"MANGO COCONUT SMOOTHIE","MANGO COCONUT SMOOTHIE",,404,,,,,Smoothie,,220,veg,No,services,1,0,Yes
+"AVACADO SMOOTHIE","AVACADO SMOOTHIE",,409,,,,,Smoothie,,250,veg,No,services,1,0,Yes
+"AVACADO HONEY SMOOTHIE","AVACADO HONEY SMOOTHIE",,410,,,,,Smoothie,,260,veg,No,services,1,0,Yes
+"KAJU ANJEER SMOOTHIE","KAJU ANJEER SMOOTHIE",,411,,,,,Smoothie,,260,veg,No,services,1,0,Yes
+"MANGO MANIA M.T","MANGO MANIA M.T",,423,,,,,Mocktail,,120,veg,No,services,1,0,Yes
+"BLUE OCEAN M.T","BLUE OCEAN M.T",,412,,,,,Mocktail,,120,veg,No,services,1,0,Yes
+"BICYCLE M.T","BICYCLE M.T",,413,,,,,Mocktail,,120,veg,No,services,1,0,Yes
+"PINK BEAUTY M.T","PINK BEAUTY M.T",,414,,,,,Mocktail,,120,veg,No,services,1,0,Yes
+"PINEAPPLE FRIDGE M.T","PINEAPPLE FRIDGE M.T",,415,,,,,Mocktail,,120,veg,No,services,1,0,Yes
+"EUROPEAN M.T","EUROPEAN M.T",,416,,,,,Mocktail,,120,veg,No,services,1,0,Yes
+"NIGHT & DAY M.T","NIGHT & DAY M.T",,417,,,,,Mocktail,,120,veg,No,services,1,0,Yes
+"DAISY DREAM M.T","DAISY DREAM M.T",,418,,,,,Mocktail,,120,veg,No,services,1,0,Yes
+"VIRGIN MOJITO M.T","VIRGIN MOJITO M.T",,419,,,,,Mocktail,,120,veg,No,services,1,0,Yes
+"GREEN ICELAND M.T","GREEN ICELAND M.T",,420,,,,,Mocktail,,120,veg,No,services,1,0,Yes
+"SPARKLING SUNRISE M.T","SPARKLING SUNRISE M.T",,421,,,,,Mocktail,,120,veg,No,services,1,0,Yes
+"RAINBOW M.T","RAINBOW M.T",,422,,,,,Mocktail,,120,veg,No,services,1,0,Yes
+"VANNILA T.S","VANNILA T.S",,441,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"KESAR ELAICHI T.S","KESAR ELAICHI T.S",,442,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"STRAWBERRY T.S","STRAWBERRY T.S",,443,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"PINEAPPLE T.S","PINEAPPLE T.S",,444,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"ROSE T.S","ROSE T.S",,445,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"BANANA T.S","BANANA T.S",,446,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"MANGO T.S","MANGO T.S",,447,,,,,"Thick Shake",,160,veg,No,services,1,0,Yes
+"CHOCOLATE T.S","CHOCOLATE T.S",,448,,,,,"Thick Shake",,140,veg,No,services,1,0,Yes
+"BLACK CURRENT T.S","BLACK CURRENT T.S",,449,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"LITCHI T.S","LITCHI T.S",,450,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"APPLE T.S","APPLE T.S",,451,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"ORANGE T.S","ORANGE T.S",,452,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"KIWI T.S","KIWI T.S",,453,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"BLUEBERRY T.S","BLUEBERRY T.S",,454,,,,,"Thick Shake",,160,veg,No,services,1,0,Yes
+"VERY BERRY T.S","VERY BERRY T.S",,455,,,,,"Thick Shake",,160,veg,No,services,1,0,Yes
+"COFFEE CHOCOLATE T.S","COFFEE CHOCOLATE T.S",,456,,,,,"Thick Shake",,150,veg,No,services,1,0,Yes
+"SITAFAL T.S","SITAFAL T.S",,457,,,,,"Thick Shake",,170,veg,No,services,1,0,Yes
+"KAJU ANJEER T.S","KAJU ANJEER T.S",,458,,,,,"Thick Shake",,230,veg,No,services,1,0,Yes
+"BUTTER SCITCH T.S","BUTTER SCITCH T.S",,459,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"KITKAT T.S","KITKAT T.S",,460,,,,,"Thick Shake",,160,veg,No,services,1,0,Yes
+"OREO T.S","OREO T.S",,461,,,,,"Thick Shake",,160,veg,No,services,1,0,Yes
+"AVOCADO T.S","AVOCADO T.S",,462,,,,,"Thick Shake",,240,veg,No,services,1,0,Yes
+"WATER MELON T.S","WATER MELON T.S",,463,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"KHUS T.S","KHUS T.S",,464,,,,,"Thick Shake",,130,veg,No,services,1,0,Yes
+"KIWI+PINEAPPLE T.S","KIWI+PINEAPPLE T.S",,465,,,,,"Thick Shake",,150,veg,No,services,1,0,Yes
+"LITCHI+PINEAPPLE T.S","LITCHI+PINEAPPLE T.S",,466,,,,,"Thick Shake",,150,veg,No,services,1,0,Yes
+"KIWI+STRAWBERRY T.S","KIWI+STRAWBERRY T.S",,467,,,,,"Thick Shake",,150,veg,No,services,1,0,Yes
+"KAJU T.S","KAJU T.S",,468,,,,,"Thick Shake",,210,veg,No,services,1,0,Yes
+"BADAM T.S","BADAM T.S",,469,,,,,"Thick Shake",,210,veg,No,services,1,0,Yes
+"BOURNVITA T.S","BOURNVITA T.S",,470,,,,,"Thick Shake",,140,veg,No,services,1,0,Yes
+"HAZELNUT T.S","HAZELNUT T.S",,471,,,,,"Thick Shake",,180,veg,No,services,1,0,Yes
+"THANDAI T.S","THANDAI T.S",,472,,,,,"Thick Shake",,140,veg,No,services,1,0,Yes
+"MUSK MELON T.S","MUSK MELON T.S",,473,,,,,"Thick Shake",,140,veg,No,services,1,0,Yes
+"HAZELNUT + COFFEE T.S","HAZELNUT + COFFEE T.S",,474,,,,,"Thick Shake",,190,veg,No,services,1,0,Yes
+"COLD COFFEE T.S","COLD COFFEE T.S",,475,,,,,"Thick Shake",,140,veg,No,services,1,0,Yes
+"KAJU BADAM T.S","KAJU BADAM T.S",,476,,,,,"Thick Shake",,230,veg,No,services,1,0,Yes
+"ANJEER T.S","ANJEER T.S",,477,,,,,"Thick Shake",,230,veg,No,services,1,0,Yes
+"JAMUN SHORT'S 4CUP","JAMUN SHORT'S 4CUP",,491,,,,,"Fresh Fruit Shots",,180,veg,No,services,1,0,Yes
+"GUAVA SHORT'S 4CUP","GUAVA SHORT'S 4CUP",,492,,,,,"Fresh Fruit Shots",,160,veg,No,services,1,0,Yes
+"GRAPES SHORT'S 4CUP","GRAPES SHORT'S 4CUP",,493,,,,,"Fresh Fruit Shots",,180,veg,No,services,1,0,Yes
+"FALSA SHORT'S 4CUP","FALSA SHORT'S 4CUP",,494,,,,,"Fresh Fruit Shots",,180,veg,No,services,1,0,Yes
+"KIWI SHORT'S 4CUP","KIWI SHORT'S 4CUP",,495,,,,,"Fresh Fruit Shots",,180,veg,No,services,1,0,Yes
+"STRAWBERRY SHORTS'S 4CUP","STRAWBERRY SHORTS'S 4CUP",,496,,,,,"Fresh Fruit Shots",,180,veg,No,services,1,0,Yes
+"MINERAL WATER 1LTR","MINERAL WATER 1LTR",,502,,,,,Beverages,,20,veg,No,services,1,0,Yes
+MONSTER,MONSTER,,503,,,,,Beverages,,110,veg,No,services,1,0,Yes
+COOLBERG,COOLBERG,,504,,,,,Beverages,,110,veg,No,services,1,0,Yes
+"RED BULL (S)","RED BULL (S)",,505,,,,,Beverages,,125,veg,No,services,1,0,Yes
+"RED BULL BIG","RED BULL BIG",,506,,,,,Beverages,,165,veg,No,services,1,0,Yes
+"PLAIN SODA","PLAIN SODA",,507,,,,,Beverages,,20,veg,No,services,1,0,Yes
+"MINERAL WATER 500ML","MINERAL WATER 500ML",,508,,,,,Beverages,,10,veg,No,services,1,0,Yes
+"ADDON WITH ICE CREAM","ADDON WITH ICE CREAM",,509,,,,,"EXTRA CHARGE",,20,veg,No,services,1,0,Yes
+"WITHOUT ICE","WITHOUT ICE",,510,,,,,"EXTRA CHARGE",,10,veg,No,services,1,0,Yes
+"1/2 ITEAM","1/2 ITEAM",,511,,,,,"EXTRA CHARGE",,10,veg,No,services,1,0,Yes
+"HALF PARCEL","HALF PARCEL",,512,,,,,"EXTRA CHARGE",,10,veg,No,services,1,0,Yes
+"VANILLA I.C 1LTR","VANILLA I.C 1LTR",,513,,,,,"ICECREAM 1LTR TUB",,260,veg,No,services,1,0,Yes
+"STRAWBERRY I.C 1LTR","STRAWBERRY I.C 1LTR",,514,,,,,"ICECREAM 1LTR TUB",,300,veg,No,services,1,0,Yes
+"PINEAPPLE I.C 1LTR","PINEAPPLE I.C 1LTR",,515,,,,,"ICECREAM 1LTR TUB",,300,veg,No,services,1,0,Yes
+"KAJU DRAKSH I.C 1LTR","KAJU DRAKSH I.C 1LTR",,516,,,,,"ICECREAM 1LTR TUB",,360,veg,No,services,1,0,Yes
+"CHOCOLATE CHIPS I.C 1LTR","CHOCOLATE CHIPS I.C 1LTR",,517,,,,,"ICECREAM 1LTR TUB",,360,veg,No,services,1,0,Yes
+"KAJU ANJEER I.C 1LTR","KAJU ANJEER I.C 1LTR",,518,,,,,"ICECREAM 1LTR TUB",,380,veg,No,services,1,0,Yes
+"RAJ BHOG I.C 1LTR","RAJ BHOG I.C 1LTR",,519,,,,,"ICECREAM 1LTR TUB",,380,veg,No,services,1,0,Yes
+"GREEN PISTA I.C 1LTR","GREEN PISTA I.C 1LTR",,520,,,,,"ICECREAM 1LTR TUB",,360,veg,No,services,1,0,Yes
+"BUTTER SCOTCH I.C 1LTR","BUTTER SCOTCH I.C 1LTR",,521,,,,,"ICECREAM 1LTR TUB",,360,veg,No,services,1,0,Yes
+"BLACK CURRENT I.C 1LTR","BLACK CURRENT I.C 1LTR",,522,,,,,"ICECREAM 1LTR TUB",,360,veg,No,services,1,0,Yes
+"AMERICAN DRY FRUIT I.C 1LTR","AMERICAN DRY FRUIT I.C 1LTR",,523,,,,,"ICECREAM 1LTR TUB",,380,veg,No,services,1,0,Yes
+"GOLDEN PEARL I.C 1LTR","GOLDEN PEARL I.C 1LTR",,524,,,,,"ICECREAM 1LTR TUB",,380,veg,No,services,1,0,Yes
+"SITAFAL (S) I.C 1LTR","SITAFAL (S) I.C 1LTR",,525,,,,,"ICECREAM 1LTR TUB",,380,veg,No,services,1,0,Yes
+"MAWA I.C 1LTR","MAWA I.C 1LTR",,526,,,,,"ICECREAM 1LTR TUB",,380,veg,No,services,1,0,Yes
+"BLUE DIAMOND I.C 1LTR","BLUE DIAMOND I.C 1LTR",,527,,,,,"ICECREAM 1LTR TUB",,380,veg,No,services,1,0,Yes
+"MANGO (S) I.C 1LTR","MANGO (S) I.C 1LTR",,528,,,,,"ICECREAM 1LTR TUB",,370,veg,No,services,1,0,Yes
+"PANCHRATNA MALAI I.C 1LTR","PANCHRATNA MALAI I.C 1LTR",,529,,,,,"ICECREAM 1LTR TUB",,400,veg,No,services,1,0,Yes
+"BELGIUM CAKE CHOCOLATE I.C 1LTR","BELGIUM CAKE CHOCOLATE I.C 1LTR",,530,,,,,"ICECREAM 1LTR TUB",,400,veg,No,services,1,0,Yes
+"DRY FRUIT KHAJAN I.C 1LTR","DRY FRUIT KHAJAN I.C 1LTR",,531,,,,,"ICECREAM 1LTR TUB",,370,veg,No,services,1,0,Yes
+"GUAVA (S) I.C 1LTR","GUAVA (S) I.C 1LTR",,532,,,,,"ICECREAM 1LTR TUB",,360,veg,No,services,1,0,Yes
+"ORANGE CHIFFON I.C 1LTR","ORANGE CHIFFON I.C 1LTR",,533,,,,,"ICECREAM 1LTR TUB",,380,veg,No,services,1,0,Yes
+"1 Cup Strawberry Short","1 cup strawberry short",,497,,,,,"Fresh Fruit Shots",,50,veg,No,services,1,0,Yes
+"1 Cup Guava Short","1 cup guava short",,498,,,,,"Fresh Fruit Shots",,50,veg,No,services,1,0,Yes
+"1 Cup Falasa Short","1 cup falasa short",,499,,,,,"Fresh Fruit Shots",,50,veg,No,services,1,0,Yes
+"1 Cup Kiwi Short","1 cup kiwi short",,500,,,,,"Fresh Fruit Shots",,50,veg,No,services,1,0,Yes
+"1 Cup Mango Short","1 cup mango short",,501,,,,,"Fresh Fruit Shots",,50,veg,No,services,1,0,Yes
+"1 Cup Jamun Short","1 cup jamun short",,534,,,,,"Fresh Fruit Shots",,50,veg,No,services,1,0,Yes
