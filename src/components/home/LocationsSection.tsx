@@ -1,4 +1,4 @@
-import { MapPin, Phone, Navigation } from "lucide-react";
+import { MapPin, Navigation } from "lucide-react";
 import { Container } from "@/components/layout/Container";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { locations, mapsHref } from "@/data/locations";
@@ -28,14 +28,6 @@ export function LocationsSection() {
                 <p className="mt-4 flex-1 text-sm leading-relaxed text-muted-foreground">
                   {loc.address}
                 </p>
-
-                <a
-                  href={brand.phoneHref}
-                  className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-foreground hover:text-brand-orange focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange rounded"
-                >
-                  <Phone className="size-4" />
-                  {loc.phone}
-                </a>
 
                 <a
                   href={mapsHref(loc.mapsQuery)}

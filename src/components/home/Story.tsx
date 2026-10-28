@@ -86,12 +86,16 @@ export function Story() {
               ))}
             </ul>
 
-            <Link
-              to="/locations"
-              className="group mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand-orange hover:text-brand-purple focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange rounded"
+            <a
+              href="#locations"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById("locations")?.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="group mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand-orange hover:text-brand-purple focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange rounded cursor-pointer"
             >
               Visit your nearest branch →
-            </Link>
+            </a>
           </div>
         </div>
       </Container>

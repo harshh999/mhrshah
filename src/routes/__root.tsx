@@ -82,7 +82,6 @@ const organizationJsonLd = {
   "@type": "IceCreamShop",
   name: brand.fullName,
   url: "/",
-  telephone: brand.phone,
   servesCuisine: ["Ice Cream", "Juices", "Faloodas", "Desserts", "Indian"],
   priceRange: "₹",
   openingHours: "Mo-Su 10:00-24:00",
@@ -98,7 +97,6 @@ const organizationJsonLd = {
     "@type": "Place",
     name: `${brand.short} — ${l.name}`,
     address: l.address,
-    telephone: l.phone,
   })),
 };
 

@@ -3,7 +3,6 @@ import { ArrowRight, MapPin, BookOpen } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { Container } from "@/components/layout/Container";
 import { menu } from "@/data/menu";
-import { brand } from "@/data/brand";
 import { cn } from "@/lib/utils";
 import {
   Dialog,
@@ -237,20 +236,27 @@ export default function MenuPage() {
               Walk in to your nearest branch — our team is always happy to recommend.
             </p>
             <div className="mt-6 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center">
-              <Link
-                to="/locations"
-                className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-foreground px-6 text-sm font-semibold text-background transition-colors hover:bg-brand-purple"
+              <a
+                href="#locations"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.hash = "#/";
+                  setTimeout(() => {
+                    document.getElementById("locations")?.scrollIntoView({ behavior: "smooth" });
+                  }, 100);
+                }}
+                className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-foreground px-6 text-sm font-semibold text-background transition-colors hover:bg-brand-purple cursor-pointer"
               >
                 <MapPin className="size-4" />
                 Find a location
                 <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
-              </Link>
-              <a
-                href={brand.phoneHref}
+              </a>
+              <Link
+                to="/contact"
                 className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-foreground/15 bg-white px-6 text-sm font-semibold text-foreground hover:border-brand-orange hover:text-brand-orange"
               >
-                Call {brand.phone}
-              </a>
+                Contact Us
+              </Link>
             </div>
           </div>
         </Container>

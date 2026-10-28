@@ -67,13 +67,17 @@ export function Hero() {
               Explore Menu
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
             </Link>
-            <Link
-              to="/locations"
-              className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-white/40 bg-white/10 px-7 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+            <a
+              href="#locations"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById("locations")?.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="inline-flex h-12 items-center justify-center gap-2 rounded-full border border-white/40 bg-white/10 px-7 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white cursor-pointer"
             >
               <MapPin className="size-4" />
               Find Location
-            </Link>
+            </a>
           </div>
 
           {/* Stats row */}

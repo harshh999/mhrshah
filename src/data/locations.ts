@@ -1,5 +1,4 @@
 import type { Location } from "@/types";
-import { brand } from "./brand";
 
 export const locations: Location[] = [
   {
@@ -7,7 +6,6 @@ export const locations: Location[] = [
     name: "Manjalpur",
     address:
       "Shop No. 8, Amarjyot Shopping Center, Nr. Spandan Circle, Lalbaug Dairy Road, Manjalpur, Vadodara",
-    phone: brand.phone,
     mapsQuery:
       "Shree Rajrajeshwari Ice Cream Juice Parlour Amarjyot Shopping Center Spandan Circle Manjalpur Vadodara",
   },
@@ -16,7 +14,6 @@ export const locations: Location[] = [
     name: "Fatehgunj",
     address:
       "21, Eastern Society, Near Frigtemp Hot Dog, Fatehgunj Main Road, Vadodara",
-    phone: brand.phone,
     mapsQuery:
       "Shree Rajrajeshwari Ice Cream Juice Parlour Eastern Society Fatehgunj Main Road Vadodara",
   },
@@ -25,7 +22,6 @@ export const locations: Location[] = [
     name: "Nizampura",
     address:
       "G-4, Vraj Complex, Opp. Gelani Petrol Pump, Nizampura Main Road, Vadodara",
-    phone: brand.phone,
     mapsQuery:
       "Shree Rajrajeshwari Ice Cream Juice Parlour Vraj Complex Nizampura Main Road Vadodara",
   },
@@ -34,7 +30,6 @@ export const locations: Location[] = [
     name: "Uma Char Rasta",
     address:
       "Shop No. 2, Indraprasth Complex, Near Uma Char Rasta, Waghodiya Road, Vadodara",
-    phone: brand.phone,
     mapsQuery:
       "Shree Rajrajeshwari Ice Cream Juice Parlour Indraprasth Complex Uma Char Rasta Waghodiya Road Vadodara",
   },
@@ -43,7 +38,6 @@ export const locations: Location[] = [
     name: "Ellora Park",
     address:
       "Shop L 1/4, National Flat, Ellora Park Main Road, Subhanpura, Vadodara",
-    phone: brand.phone,
     mapsQuery:
       "Shree Rajrajeshwari Ice Cream Juice Parlour National Flat Ellora Park Main Road Subhanpura Vadodara",
   },

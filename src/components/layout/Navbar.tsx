@@ -7,15 +7,28 @@ import { BrandLogo } from "./BrandLogo";
 import { brand } from "@/data/brand";
 
 const links = [
-  { to: "/", label: "Home" },
-  { to: "/menu", label: "Menu" },
-  { to: "/locations", label: "Locations" },
-  { to: "/contact", label: "Contact" },
+  { to: "/", label: "Home", isAnchor: false },
+  { to: "/menu", label: "Menu", isAnchor: false },
+  { to: "/#locations", label: "Locations", isAnchor: true },
+  { to: "/contact", label: "Contact", isAnchor: false },
 ] as const;
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+
+  const handleLocationsClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setOpen(false);
+    if (window.location.hash.startsWith("#/menu") || window.location.hash.startsWith("#/contact")) {
+      window.location.hash = "#/";
+      setTimeout(() => {
+        document.getElementById("locations")?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    } else {
+      document.getElementById("locations")?.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 16);
@@ -71,23 +84,38 @@ export function Navbar() {
         <nav aria-label="Primary" className="hidden md:block">
           <ul className="flex items-center gap-8">
             {links.map((l) => (
-              <li key={l.to}>
-                <NavLink
-                  to={l.to}
-                  end={l.to === "/"}
-                  className={({ isActive }) => cn(
-                    "rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange",
-                    scrolled
-                      ? (isActive
-                          ? "bg-cream text-foreground font-semibold"
-                          : "text-foreground/80 hover:bg-cream hover:text-foreground")
-                      : (isActive
-                          ? "bg-white/20 text-white font-semibold"
-                          : "text-white/90 hover:bg-white/15 hover:text-white")
-                  )}
-                >
-                  {l.label}
-                </NavLink>
+              <li key={l.label}>
+                {l.isAnchor ? (
+                  <a
+                    href="#locations"
+                    onClick={handleLocationsClick}
+                    className={cn(
+                      "rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange cursor-pointer",
+                      scrolled
+                        ? "text-foreground/80 hover:bg-cream hover:text-foreground"
+                        : "text-white/90 hover:bg-white/15 hover:text-white"
+                    )}
+                  >
+                    {l.label}
+                  </a>
+                ) : (
+                  <NavLink
+                    to={l.to}
+                    end={l.to === "/"}
+                    className={({ isActive }) => cn(
+                      "rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange",
+                      scrolled
+                        ? (isActive
+                            ? "bg-cream text-foreground font-semibold"
+                            : "text-foreground/80 hover:bg-cream hover:text-foreground")
+                        : (isActive
+                            ? "bg-white/20 text-white font-semibold"
+                            : "text-white/90 hover:bg-white/15 hover:text-white")
+                    )}
+                  >
+                    {l.label}
+                  </NavLink>
+                )}
               </li>
             ))}
           </ul>
@@ -131,20 +159,30 @@ export function Navbar() {
         <Container className="flex flex-col gap-2 pt-8">
           <ul className="flex flex-col gap-1">
             {links.map((l) => (
-              <li key={l.to}>
-                <NavLink
-                  to={l.to}
-                  onClick={() => setOpen(false)}
-                  end={l.to === "/"}
-                  className={({ isActive }) => cn(
-                    "block rounded-xl px-4 py-4 text-lg font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange",
-                    isActive
-                      ? "bg-cream font-semibold text-foreground"
-                      : "text-foreground/80 hover:bg-cream"
-                  )}
-                >
-                  {l.label}
-                </NavLink>
+              <li key={l.label}>
+                {l.isAnchor ? (
+                  <a
+                    href="#locations"
+                    onClick={handleLocationsClick}
+                    className="block rounded-xl px-4 py-4 text-lg font-medium text-foreground/80 hover:bg-cream transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange cursor-pointer"
+                  >
+                    {l.label}
+                  </a>
+                ) : (
+                  <NavLink
+                    to={l.to}
+                    onClick={() => setOpen(false)}
+                    end={l.to === "/"}
+                    className={({ isActive }) => cn(
+                      "block rounded-xl px-4 py-4 text-lg font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange",
+                      isActive
+                        ? "bg-cream font-semibold text-foreground"
+                        : "text-foreground/80 hover:bg-cream"
+                    )}
+                  >
+                    {l.label}
+                  </NavLink>
+                )}
               </li>
             ))}
           </ul>
