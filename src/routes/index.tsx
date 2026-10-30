@@ -11,12 +11,14 @@ import { cn } from "@/lib/utils";
 
 export default function HomePage() {
   const [showFloatingCTA, setShowFloatingCTA] = useState(false);
+  const [isFooterVisible, setIsFooterVisible] = useState(false);
 
   useEffect(() => {
     const heroEl = document.getElementById("hero");
-    if (!heroEl) return;
+    const footerEl = document.getElementById("site-footer");
+    if (!heroEl || !footerEl) return;
 
-    const observer = new IntersectionObserver(
+    const heroObserver = new IntersectionObserver(
       ([entry]) => {
         // Show the button when hero is no longer intersecting the viewport
         setShowFloatingCTA(!entry.isIntersecting);
@@ -27,8 +29,23 @@ export default function HomePage() {
       },
     );
 
-    observer.observe(heroEl);
-    return () => observer.disconnect();
+    const footerObserver = new IntersectionObserver(
+      ([entry]) => {
+        setIsFooterVisible(entry.isIntersecting);
+      },
+      {
+        threshold: 0,
+        rootMargin: "0px",
+      },
+    );
+
+    heroObserver.observe(heroEl);
+    footerObserver.observe(footerEl);
+
+    return () => {
+      heroObserver.disconnect();
+      footerObserver.disconnect();
+    };
   }, []);
 
   return (
@@ -46,9 +63,9 @@ export default function HomePage() {
         aria-label="Explore Menu"
         className={cn(
           "fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-brand-orange px-6 text-sm font-semibold text-white shadow-[var(--shadow-lift)] border border-white/20 transition-all duration-300 ease-out hover:bg-orange-600 hover:scale-[1.03] active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange focus-visible:ring-offset-2",
-          showFloatingCTA
-            ? "translate-y-0 opacity-100 pointer-events-auto shadow-2xl"
-            : "translate-y-4 opacity-0 pointer-events-none",
+          showFloatingCTA && !isFooterVisible
+            ? "translate-y-0 opacity-100 pointer-events-auto visible shadow-2xl"
+            : "translate-y-4 opacity-0 pointer-events-none invisible",
         )}
       >
         <span>Explore Menu</span>

@@ -25,7 +25,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="relative mt-24 bg-brand-charcoal text-white">
+    <footer id="site-footer" className="relative mt-24 bg-brand-charcoal text-white">
       <Container className="relative grid gap-12 py-16 md:grid-cols-12">
         <div className="md:col-span-4">
           <div className="flex items-center gap-3">
@@ -37,9 +37,7 @@ export function Footer() {
               </div>
             </div>
           </div>
-          <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/75">
-            {brand.description}
-          </p>
+          <p className="mt-5 max-w-sm text-sm leading-relaxed text-white/75">{brand.description}</p>
           <div className="mt-6 flex gap-3">
             <a
               href={brand.instagram}
@@ -137,8 +135,26 @@ export function Footer() {
 
       <div className="border-t border-white/10">
         <Container className="flex flex-col items-start justify-between gap-2 py-6 text-xs text-white/60 sm:flex-row sm:items-center">
-          <p>© {new Date().getFullYear()} {brand.fullName}. All rights reserved.</p>
-          <p>Made with care in {brand.city}.</p>
+          <p>
+            © {new Date().getFullYear()} {brand.fullName}. All rights reserved.
+          </p>
+          <a
+            href="https://lazlle.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Site by Lazlle & Co."
+            className="group inline-flex shrink-0 border border-white/35 font-mono text-[10px] font-bold uppercase tracking-[0.14em] text-white transition-colors duration-200 hover:border-brand-orange focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-orange"
+          >
+            <span className="flex items-center border-r border-white/35 bg-brand-orange px-2 py-1 text-brand-charcoal transition-colors duration-200 group-hover:bg-white">
+              Site by
+            </span>
+            <span className="flex items-center bg-brand-charcoal px-2 py-1 text-white transition-colors duration-200 group-hover:text-brand-orange">
+              Lazlle &amp; Co.
+            </span>
+            <span className="flex items-center border-l border-white/35 px-2 py-1 text-brand-orange transition-all duration-200 group-hover:-translate-y-[3px] group-hover:translate-x-[3px]">
+              ↗
+            </span>
+          </a>
         </Container>
       </div>
     </footer>
